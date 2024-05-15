@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+}
+
+.container {
+    display: grid;
+    height: 215px;
+    width: 300px;
+    margin: 0 auto; /* Center the div horizontally */
+    position: relative; /* Set position to relative */
+}
+
+
+#numberInput {
+    width: 180px;
+    height: 20px;
+    border: 2px solid;
+    border-color: rgb(216, 219, 220);
+    text-align: center;
+    color: rgb(0, 85, 135);
+    border-radius: 5px;
+    font-size: 11px;
+    position: absolute; /* Set position to absolute */
+}
+
+#textInput  {
+    width: 100%;
+    height: 150px;
+    border: 2px solid;
+    border-color: rgb(216, 219, 220);
+    text-align: center;
+    color: rgb(0, 85, 135);
+    border-radius: 5px;
+    font-size: 11px;
+    position: absolute; /* Set position to absolute */
+}
+
+#numberInput {
+    top: 0; /* Position at the top of the container */
+}
+
+#textInput {
+    bottom: 30px; /* Position at the bottom of the container */
+}
+
+button {
+    
+    margin-bottom: 0%;
+    margin-left: 69%;
+    width: 100px;
+    height: 25px;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: rgb(235, 91, 8);
+    color: rgb(247, 250, 251);
+    border: 2px solid;
+    border-color: rgb(216, 219, 220);
+    /*border: none;*/
+    border-radius: 5px;
+    position: absolute; /* Set position to absolute */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+.alert {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #45a050;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    transition: display 0.3s;
+}
+
+.success {
+    background-color: #45a050;
+}
+
+.error {
+    background-color: #d9534f;
+}
