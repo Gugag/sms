@@ -57,7 +57,7 @@ button {
     height: 25px;
     font-size: 12px;
     cursor: pointer;
-    background-color: #45a049;
+    background-color: #f3530f;
     color: rgb(247, 250, 251);
     border: 2px solid;
     border-color: rgb(1, 86, 114);
@@ -67,7 +67,7 @@ button {
 }
 
 button:hover {
-    background-color: #f3530f;
+    background-color: #45a049;
 }
 
 
