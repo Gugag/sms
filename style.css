@@ -91,3 +91,17 @@ button:hover {
 .error {
     background-color: #d9534f;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        height: auto; /* Auto height for smaller screens */
+    }
+    
+    #numberInput, #textInput {
+        max-width: 100%; /* Adjusted max-width for smaller screens */
+    }
+    
+    button {
+        max-width: 100%; /* Adjusted max-width for smaller screens */
+    }
+}
