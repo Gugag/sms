@@ -3,10 +3,10 @@ function sendSMS() {
   const personNumber = document.getElementById('numberInput').value;
   const textInput = document.getElementById('textInput').value;
 
-  fetch('https://api.twilio.com/2010-04-01/Accounts/ACd2799421f889c5a61dc6dc8ed5c31dec/Messages.json', {
+  fetch('https://api.twilio.com/2010-04-01/Accounts/SK0542431a25749409aa64461c2b438260/Messages.json', {
       method: 'POST',
       headers: {
-          'Authorization': 'Basic ' + btoa('ACd2799421f889c5a61dc6dc8ed5c31dec:4d361008947fddc2f74fec228ccc4b17'),
+          'Authorization': 'Basic ' + btoa('SK0542431a25749409aa64461c2b438260:0iSEn9msabq7sV44UTJxMJUmGwJ1CXLx'),
           'Content-Type': 'application/x-www-form-urlencoded'
       },
       body: new URLSearchParams({
