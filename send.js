@@ -6,7 +6,7 @@ function sendSMS() {
   fetch('https://api.twilio.com/2010-04-01/Accounts/SK0542431a25749409aa64461c2b438260/Messages.json', {
       method: 'POST',
       headers: {
-          'Authorization': 'Basic ' + btoa('0iSEn9msabq7sV44UTJxMJUmGwJ1CXLx'),
+          'Authorization': 'Basic ' + btoa('SK0542431a25749409aa64461c2b438260:0iSEn9msabq7sV44UTJxMJUmGwJ1CXLx'),
           'Content-Type': 'application/x-www-form-urlencoded'
       },
       body: new URLSearchParams({
