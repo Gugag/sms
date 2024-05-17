@@ -1,6 +1,6 @@
 function sendSMS() {
   console.log("Sending SMS...");
-  const personNumber = document.getElementById('numberInput').value;
+  const personNumber = '+995' + document.getElementById('numberInput').value;
   const textInput = document.getElementById('textInput').value;
 
   fetch('https://api.twilio.com/2010-04-01/Accounts/ACd2799421f889c5a61dc6dc8ed5c31dec/Messages.json', {
